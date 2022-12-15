@@ -1,8 +1,7 @@
-import { createStore, bindActionCreators } from "redux"
+import { createStore } from "redux"
 import { createRoot } from 'react-dom/client';
 import { Provider } from "react-redux";
 import { App } from "./app";
-import { inc, dec, rnd } from "./actions"
 import { reducer } from './reducer'
 
 const store = createStore(reducer)
